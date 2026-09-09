@@ -9,7 +9,17 @@
 
         public string Title;
 
+
+        public string Genre { get; set; }
+
     };
+    #endregion 
+
+    #region enum Genre 
+    public enum Genre
+    {
+        Fiction, NonFiction, Science
+    }
     #endregion 
     internal class Program
     {
@@ -28,12 +38,17 @@
             ////project doesn't matter inside the class or in the main .
             #endregion
 
-
             #region q3 
             //Book b1 = new Book();
             //b1.Title = "Text";
             //Console.WriteLine(b1.Title);
-            #endregion 
+            #endregion
+
+            #region q4 
+            //Book b1 = new Book();
+            //b1.Genre = Genre.Science.ToString();
+            //Console.WriteLine(b1.Genre);
+            #endregion
         }
     }
 }

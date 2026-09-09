@@ -61,6 +61,12 @@ namespace C05_C_
             //int genreNumber = 1;
             //Genre genre = (Genre)genreNumber;
             //Console.WriteLine(genre);
+            #endregion
+
+            #region q7 
+            //Genre genre = Genre.Fiction;
+            //string value = genre.ToString();
+            //Console.WriteLine(value);
             #endregion 
         }
     }

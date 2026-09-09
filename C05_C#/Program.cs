@@ -67,6 +67,12 @@ namespace C05_C_
             //Genre genre = Genre.Fiction;
             //string value = genre.ToString();
             //Console.WriteLine(value);
+            #endregion
+
+            #region q8 
+            //string genreText = "Science";
+            //Genre genre = Enum.Parse<Genre>(genreText);
+            //Console.WriteLine(genre);
             #endregion 
         }
     }

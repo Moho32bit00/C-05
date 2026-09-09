@@ -1,4 +1,6 @@
-﻿namespace C05_C_
+﻿using System.Text.RegularExpressions;
+
+namespace C05_C_
 {
     #region class Book 
     public class Book
@@ -53,6 +55,12 @@
             #region q5 
             //int value = Convert.ToInt32(Genre.Fiction);
             //Console.WriteLine(value);
+            #endregion
+
+            #region q6 
+            //int genreNumber = 1;
+            //Genre genre = (Genre)genreNumber;
+            //Console.WriteLine(genre);
             #endregion 
         }
     }

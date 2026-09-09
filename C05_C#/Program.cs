@@ -6,6 +6,9 @@
         private string password = "secret";
 
         internal int copiesInStock = 5;
+
+        public string Title;
+
     };
     #endregion 
     internal class Program
@@ -19,12 +22,18 @@
             #endregion
 
             #region Q2 
-            Book b1 = new Book();
-            Console.WriteLine(b1.copiesInStock);
-            // it is going to compile , cuz the access modifier is "internal" that means that u can use the field inside the 
-            //project doesn't matter inside the class or in the main .
-            #endregion 
+            //Book b1 = new Book();
+            //Console.WriteLine(b1.copiesInStock);
+            //// it is going to compile , cuz the access modifier is "internal" that means that u can use the field inside the 
+            ////project doesn't matter inside the class or in the main .
+            #endregion
 
+
+            #region q3 
+            //Book b1 = new Book();
+            //b1.Title = "Text";
+            //Console.WriteLine(b1.Title);
+            #endregion 
         }
     }
 }

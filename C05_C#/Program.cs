@@ -1,10 +1,12 @@
 ﻿namespace C05_C_
 {
-    #region q1 
-    //public class Book
-    //{
-    //    private string password = "secret";
-    //};
+    #region class Book 
+    public class Book
+    {
+        private string password = "secret";
+
+        internal int copiesInStock = 5;
+    };
     #endregion 
     internal class Program
     {
@@ -14,7 +16,15 @@
             //Book b1 = new Book();
             //Console.WriteLine(b1.password); 
             ////it is not going to print , cuz this is a private field so it can not be used outside the class .
+            #endregion
+
+            #region Q2 
+            Book b1 = new Book();
+            Console.WriteLine(b1.copiesInStock);
+            // it is going to compile , cuz the access modifier is "internal" that means that u can use the field inside the 
+            //project doesn't matter inside the class or in the main .
             #endregion 
+
         }
     }
 }

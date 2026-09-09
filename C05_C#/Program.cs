@@ -49,6 +49,11 @@
             //b1.Genre = Genre.Science.ToString();
             //Console.WriteLine(b1.Genre);
             #endregion
+
+            #region q5 
+            //int value = Convert.ToInt32(Genre.Fiction);
+            //Console.WriteLine(value);
+            #endregion 
         }
     }
 }

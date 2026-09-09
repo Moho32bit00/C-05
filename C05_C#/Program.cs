@@ -73,7 +73,14 @@ namespace C05_C_
             //string genreText = "Science";
             //Genre genre = Enum.Parse<Genre>(genreText);
             //Console.WriteLine(genre);
-            #endregion 
+            #endregion
+
+            #region q9 
+            //string genreText = "Mystery";
+            //bool falg = Enum.TryParse(genreText , out Genre genre);
+            //if (falg) { Console.WriteLine(genre); }
+            //else { Console.WriteLine("Unknown genre"); }
+            #endregion
         }
     }
 }
